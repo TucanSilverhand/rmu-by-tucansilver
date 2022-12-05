@@ -100,6 +100,158 @@
                 "special": 0,
                 "total": 0
             }
+        },
+        "skills": {
+            "animal": {
+                "animal handling": 0,
+                "ridding": 0                
+            },
+            "awareness": {
+                "perception": 0,
+                "tracking": 0
+            },
+            "battle expertise": {
+                "maneuver in armor": 0,
+                "mounted combat": 0,
+                "protect": 0,
+                "restricted quaters": 0,
+                "subduing": 0
+            },
+            "body discipline": {
+                "adrenal defense": 0,
+                "adrenal focus": 0,
+                "adrenal speed": 0,
+                "adrenal strength": 0
+            },
+            "brawn": {
+                "body development": 0,
+                "fortitude": 0,
+                "weight training": 0
+            },
+            "combat expertise": {
+                "blind fighting": 0,
+                "disarm": 0,
+                "footwork": 0,
+                "multiple attacks": 0,
+                "reverse strike": 0
+            },
+            "combat training": {
+                "mele": 0,
+                "unarmed": 0,
+                "ranged": 0,
+                "shield": 0
+            },
+            "composition": {
+                "illusion crafting": 0,
+                "musical composition": 0,
+                "writing": 0
+            },
+            "crafting": {
+                "culinary": 0,
+                "drawing_painting": 0,
+                "fabric craft": 0,
+                "leathercraft": 0,
+                "metalcraft": 0,
+                "stonecraft": 0,
+                "woodcraft": 0
+            },
+            "delving": {
+                "attunement": 0,
+                "runes": 0
+            },
+            "environmental": {
+                "navigation": 0,
+                "piloting": 0,
+                "survival": 0
+            },
+            "gymnastic": {
+                "acrobatics": 0,
+                "contortions": 0,
+                "jumping": 0
+            },
+            "lore": {
+                "creature lore": 0,
+                "historic lore": 0,
+                "materials lore": 0,
+                "racial lore": 0,
+                "region lore": 0,
+                "religion_philosophy": 0,
+                "spell lore": 0
+            },
+            "languages": {
+                "spoken": 0,
+                "written": 0
+            },
+            "magical expertise": {
+                "grace": 0,
+                "spell trickery": 0,
+                "trascendence": 0
+            },
+            "medical": {
+                "herbalism": 0,
+                "medicine": 0
+            },
+            "mental discipline": {
+                "poison mastery": 0,
+                "control licanthropy": 0,
+                "meditation": 0,
+                "mental focus": 0
+            },
+            "movement": {
+                "climbing": 0,
+                "flying": 0,
+                "running": 0,
+                "swimming": 0
+            },
+            "performance art": {
+                "acting": 0,
+                "music": 0,
+                "stage magic": 0
+            },
+            "power manipulation": {
+                "channeling": 0,
+                "directed spells": 0,
+                "power development": 0,
+                "power projection": 0
+            },
+            "science": {
+                "architecture": 0,
+                "astronomy": 0,
+                "engineering": 0,
+                "mathematics": 0
+            },
+            "social": {
+                "influence - charm": 0,
+                "influence - duping": 0,
+                "influence - intimidation": 0,
+                "leadership": 0,
+                "social awareness": 0,
+                "trading": 0
+            },
+            "subterfuge": {
+                "ambush": 0,
+                "concealment": 0,
+                "stalking": 0,
+                "trickery": 0
+            },
+            "technical": {
+                "locks": 0,
+                "mechanics": 0,
+                "traps": 0
+            },
+            "vocation": {
+                "administration": 0,
+                "service": 0,
+                "trade": 0
+            },
+            "spell casting": {
+                "magic ritual": 0,
+                "base": 0,
+                "open": 0,
+                "closed": 0,
+                "arcane": 0,
+                "restricted": 0
+            }
         }
       },
       "character": {
