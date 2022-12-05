@@ -1,0 +1,67 @@
+{
+    "id": "rmu-by-tucansilver",
+    "title": "Rolemaster Unified System by TucanSilverhand",
+    "description": "Rolemaster Unified System by TucanSilverhand",
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10",
+      "maximum": "10"
+    },
+    "authors": [
+      {
+        "name": "Tucan Silverhand",
+        "url": "https://github.com/TucanSilverhand",
+        "email": "teatrodelamente2022@gmail.com",
+        "discord": "Silverhand"
+      }
+    ],
+    "scripts": [
+      "scripts/rmu-script-1.js",
+      "scripts/rmu-script-2.js"
+    ],
+    "esmodules": [
+      "scripts/rmu-module-1.mjs"
+    ],
+    "styles": [
+      "styles/rmu-styles-1.css",
+      "styles/rmu-styles-2.css"
+    ],
+    "packs": [
+      {
+        "name": "monsters",
+        "label": "My Monsters",
+        "path": "packs/monsters.db",
+        "type": "Actor"
+      },
+      {
+        "name": "items",
+        "label": "My Items",
+        "path": "packs/items.db",
+        "type": "Item"
+      }
+    ],
+  "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      },
+      {
+        "lang": "es",
+        "name": "Spanish",
+        "path": "lang/es.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "1d100",
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://github.com/TucanSilverhand/rmu-by-tucansilver",
+    "bugs": "https://github.com/TucanSilverhand/rmu-by-tucansilver/issues",
+    "changelog": "https://github.com/TucanSilverhand/rmu-by-tucansilver/blob/release/CHANGELOG.md",
+    "manifest": "https://github.com/TucanSilverhand/rmu-by-tucansilver/releases/latest/download/system.json",
+    "download": "https://github.com/TucanSilverhand/rmu-by-tucansilver/releases/latest/download/rmu-by-tucansilver.zip"
+  }
