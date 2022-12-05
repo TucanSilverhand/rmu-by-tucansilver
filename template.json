@@ -1,0 +1,170 @@
+{
+    "Actor": {
+      "types": ["character", "villan", "npc", "monster"],
+      "htmlFields": ["biography"],
+      "templates": {
+        "appearance": {
+            "sex": "male",
+            "age": "18",
+            "heigh": "6.3",
+            "weight": "212",
+            "build": "portly",
+            "skin": "white",
+            "hair": "brown",
+            "eyes": "brown"
+        },
+        "background": {
+            "race": "",
+            "culture": "",
+            "profession": "",
+            "realm": ""
+        },
+        "statistics": {
+            "ag": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "co": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "em": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "in": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "me": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "pr": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "qu": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "re": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "sd": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            },
+            "st": {
+                "pot": 0,
+                "temp": 0,
+                "bonus": 0,
+                "racial": 0,
+                "special": 0,
+                "total": 0
+            }
+        }
+      },
+      "character": {
+        "biography": "",
+        "templates": ["appearance", "background", "statistics"],
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
+      },
+      "villan": {
+        "biography": "",
+        "templates": ["appearance", "background", "statistics"],
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
+      },
+      "npc": {
+        "templates": ["background", "statistics"],
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
+      },
+      "monster": {
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
+      }
+    },
+    "Item": {
+      "types": ["item"],
+      "htmlFields": ["description"],
+      "item": {
+        "description": "",
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {},
+        "groups": {}
+      }
+    }
+    }

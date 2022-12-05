@@ -2,7 +2,7 @@
     "id": "rmu-by-tucansilver",
     "title": "Rolemaster Unified System by TucanSilverhand",
     "description": "Rolemaster Unified System by TucanSilverhand",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "compatibility": {
       "minimum": "10",
       "verified": "10",
@@ -21,7 +21,7 @@
       "scripts/rmu-script-2.js"
     ],
     "esmodules": [
-      "scripts/rmu-module-1.mjs"
+      "esmodules/rmu-module-1.mjs"
     ],
     "styles": [
       "styles/rmu-styles-1.css",
