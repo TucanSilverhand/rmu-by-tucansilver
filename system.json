@@ -35,8 +35,14 @@
         "type": "Actor"
       },
       {
+        "name": "skills",
+        "label": "Skills",
+        "path": "packs/skills.db",
+        "type": "Item"
+      },
+      {
         "name": "items",
-        "label": "My Items",
+        "label": "Items",
         "path": "packs/items.db",
         "type": "Item"
       }

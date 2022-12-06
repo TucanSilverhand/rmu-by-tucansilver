@@ -292,6 +292,8 @@
         "profbonus": 0,
         "specbonus": 0,
         "totalbonus": 0,
+        "profbonusbool": false,
+        "knackbonusbool": false,
         "skillcategory": ""
       },
       "item": {
