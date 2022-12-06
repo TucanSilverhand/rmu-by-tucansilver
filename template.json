@@ -4,14 +4,14 @@
       "htmlFields": ["biography"],
       "templates": {
         "appearance": {
-            "sex": "male",
-            "age": "18",
-            "heigh": "6.3",
-            "weight": "212",
-            "build": "portly",
-            "skin": "white",
-            "hair": "brown",
-            "eyes": "brown"
+            "sex": "",
+            "age": "",
+            "heigh": "",
+            "weight": "",
+            "build": "",
+            "skin": "",
+            "hair": "",
+            "eyes": ""
         },
         "background": {
             "race": "",
@@ -101,162 +101,132 @@
                 "total": 0
             }
         },
-        "skills": {
+        "skillcategory": {
             "animal": {
-                "animal handling": 0,
-                "ridding": 0                
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "awareness": {
-                "perception": 0,
-                "tracking": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "battle expertise": {
-                "maneuver in armor": 0,
-                "mounted combat": 0,
-                "protect": 0,
-                "restricted quaters": 0,
-                "subduing": 0
+            "battleexpertise": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "body discipline": {
-                "adrenal defense": 0,
-                "adrenal focus": 0,
-                "adrenal speed": 0,
-                "adrenal strength": 0
+            "bodydiscipline": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "brawn": {
-                "body development": 0,
-                "fortitude": 0,
-                "weight training": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "combat expertise": {
-                "blind fighting": 0,
-                "disarm": 0,
-                "footwork": 0,
-                "multiple attacks": 0,
-                "reverse strike": 0
+            "combatexpertise": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "combat training": {
-                "mele": 0,
-                "unarmed": 0,
-                "ranged": 0,
-                "shield": 0
+            "combattraining": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "composition": {
-                "illusion crafting": 0,
-                "musical composition": 0,
-                "writing": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "crafting": {
-                "culinary": 0,
-                "drawing_painting": 0,
-                "fabric craft": 0,
-                "leathercraft": 0,
-                "metalcraft": 0,
-                "stonecraft": 0,
-                "woodcraft": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "delving": {
-                "attunement": 0,
-                "runes": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "environmental": {
-                "navigation": 0,
-                "piloting": 0,
-                "survival": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "gymnastic": {
-                "acrobatics": 0,
-                "contortions": 0,
-                "jumping": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "lore": {
-                "creature lore": 0,
-                "historic lore": 0,
-                "materials lore": 0,
-                "racial lore": 0,
-                "region lore": 0,
-                "religion_philosophy": 0,
-                "spell lore": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "languages": {
-                "spoken": 0,
-                "written": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "magical expertise": {
-                "grace": 0,
-                "spell trickery": 0,
-                "trascendence": 0
+            "magicalexpertise": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "medical": {
-                "herbalism": 0,
-                "medicine": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "mental discipline": {
-                "poison mastery": 0,
-                "control licanthropy": 0,
-                "meditation": 0,
-                "mental focus": 0
+            "mentaldiscipline": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "movement": {
-                "climbing": 0,
-                "flying": 0,
-                "running": 0,
-                "swimming": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
-            "performance art": {
-                "acting": 0,
-                "music": 0,
-                "stage magic": 0
-            },
-            "power manipulation": {
-                "channeling": 0,
-                "directed spells": 0,
-                "power development": 0,
-                "power projection": 0
+            "performanceart": {
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "science": {
-                "architecture": 0,
-                "astronomy": 0,
-                "engineering": 0,
-                "mathematics": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "social": {
-                "influence - charm": 0,
-                "influence - duping": 0,
-                "influence - intimidation": 0,
-                "leadership": 0,
-                "social awareness": 0,
-                "trading": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "subterfuge": {
-                "ambush": 0,
-                "concealment": 0,
-                "stalking": 0,
-                "trickery": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "technical": {
-                "locks": 0,
-                "mechanics": 0,
-                "traps": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             },
             "vocation": {
-                "administration": 0,
-                "service": 0,
-                "trade": 0
-            },
-            "spell casting": {
-                "magic ritual": 0,
-                "base": 0,
-                "open": 0,
-                "closed": 0,
-                "arcane": 0,
-                "restricted": 0
+                "stats": "",
+                "statsbonus": 0,
+                "dpcost": ""
             }
         }
       },
       "character": {
         "biography": "",
-        "templates": ["appearance", "background", "statistics"],
+        "templates": ["appearance", "background", "statistics", "skillcategory"],
         "health": {
           "value": 10,
           "min": 0,
@@ -270,7 +240,7 @@
       },
       "villan": {
         "biography": "",
-        "templates": ["appearance", "background", "statistics"],
+        "templates": ["appearance", "background", "statistics", "skillcategory"],
         "health": {
           "value": 10,
           "min": 0,
@@ -283,7 +253,7 @@
         }
       },
       "npc": {
-        "templates": ["background", "statistics"],
+        "templates": ["background", "statistics", "skillcategory"],
         "health": {
           "value": 10,
           "min": 0,
@@ -309,9 +279,23 @@
       }
     },
     "Item": {
-      "types": ["item"],
+      "types": ["skills", "item"],
       "htmlFields": ["description"],
+      "templates": { },
+      "skills": {
+        "name": "",
+        "description": "",
+        "stats": "",
+        "statsbonus": 0,
+        "totalranks": 0,
+        "rankbonus": 0,
+        "profbonus": 0,
+        "specbonus": 0,
+        "totalbonus": 0,
+        "skillcategory": ""
+      },
       "item": {
+        "name": "",
         "description": "",
         "quantity": 1,
         "weight": 0,
