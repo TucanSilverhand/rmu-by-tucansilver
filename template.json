@@ -101,126 +101,126 @@
                 "total": 0
             }
         },
-        "skillcategory": {
+        "skillCategory": {
             "animal": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "awareness": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "battleexpertise": {
+            "battleExpertise": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "bodydiscipline": {
+            "bodyDiscipline": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "brawn": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "combatexpertise": {
+            "combatExpertise": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "combattraining": {
+            "combatTraining": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "composition": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "crafting": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "delving": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "environmental": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "gymnastic": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "lore": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "languages": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "magicalexpertise": {
+            "magicalExpertise": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "medical": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "mentaldiscipline": {
+            "mentalDiscipline": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "movement": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
-            "performanceart": {
+            "performanceArt": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "science": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "social": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "subterfuge": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "technical": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             },
             "vocation": {
                 "stats": "",
-                "statsbonus": 0,
-                "dpcost": ""
+                "statsBonus": 0,
+                "dpCost": ""
             }
         }
       },
@@ -279,30 +279,63 @@
       }
     },
     "Item": {
-      "types": ["skills", "item"],
+      "types": ["general", "armor", "shield", "weapon","skill"],
       "htmlFields": ["description"],
-      "templates": { },
-      "skills": {
-        "name": "",
+      "templates": { 
+        "common": {
+            "cost": 0,
+            "quantity": 1,
+            "weight": 0,
+            "minStrength": 0,
+            "prodTimes": 1,
+            "notes": ""
+        }
+      },
+      "skill": {
         "description": "",
         "stats": "",
-        "statsbonus": 0,
-        "totalranks": 0,
-        "rankbonus": 0,
-        "profbonus": 0,
-        "specbonus": 0,
-        "totalbonus": 0,
-        "profbonusbool": false,
-        "knackbonusbool": false,
-        "skillcategory": ""
+        "statsBonus": 0,
+        "totalRanks": 0,
+        "rankBonus": 0,
+        "profBonus": 0,
+        "specBonus": 0,
+        "totalBonus": 0,
+        "profBonusBool": false,
+        "knackBonusBool": false,
+        "skillCategory": ""
       },
-      "item": {
-        "name": "",
+      "general": {
         "description": "",
-        "quantity": 1,
-        "weight": 0,
-        "attributes": {},
-        "groups": {}
+        "templates": ["common"]
+      },
+      "armor": {
+        "description": "",
+        "templates": ["common"],
+        "encumbrance": 0,
+        "malusManeuver": 0,
+        "malusRanged": 0,
+        "malusPerception": 0,
+        "skill": ""
+      },
+      "shield": {
+        "description": "",
+        "templates": ["common"],
+        "db": 0,
+        "maxAttacksBlocked": 0
+      },
+      "weapon": {
+        "description": "",
+        "templates": ["common"],
+        "fumble": 1,
+        "rangePoint": 0,
+        "rangeShort": 0,
+        "rangeMedium": 0,
+        "rangeLong": 0,
+        "rangeExtreme": 0,
+        "rangeAbsurd": 0,
+        "sizeAjustament": 0,
+        "attackTable": "",
+        "skill": ""      
       }
     }
-    }
+}
