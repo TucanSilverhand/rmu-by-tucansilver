@@ -54,6 +54,14 @@
       "sizeAjustament": "Size ajustament",
       "attackTable": "Attack table",
       "skill": "Skill to use"      
+    },
+    "itemCommon": {
+      "cost": "Cost",
+      "quantity": "Quantity",
+      "weight": "Weight",
+      "minStrength": "Min Strength",
+      "prodTimes": "Prod Times",
+      "notes": "Notes"
     }
   }
 }

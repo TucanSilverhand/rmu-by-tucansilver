@@ -4,10 +4,14 @@ export class RMUItemSheet extends ItemSheet {
     return `${path}/${this.item.type}-sheet.html`;
   }
 
-  getData() {
-    const context = super.getData();
+  async getData(options) {
+    const context = await super.getData(options);
+    context.systemData = context.data.system;
     context.config = CONFIG.RMU;
-    context.systemData = context.data.data;
+    context.descriptionHTML = await TextEditor.enrichHTML(context.systemData.description, {
+      secrets: this.document.isOwner,
+      async: true
+    });
     return context;
   }
 }

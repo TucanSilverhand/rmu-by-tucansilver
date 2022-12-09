@@ -3,60 +3,78 @@
       <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
       <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
   </header>
-  <div>
-    <table>
-      <tr>
-        <th>{{localize "RMU.weapon.fumble"}}</th>
-        <th>{{localize "RMU.weapon.rangePoint"}}</th>
-        <th>{{localize "RMU.weapon.rangeShort"}}</th>
-        <th>{{localize "RMU.weapon.rangeMedium"}}</th>
-        <th>{{localize "RMU.weapon.rangeLong"}}</th>
-        <th>{{localize "RMU.weapon.rangeExtreme"}}</th>
-        <th>{{localize "RMU.weapon.rangeAbsurd"}}</th>
-        <th>{{localize "RMU.weapon.sizeAjustament"}}</th>
-        <th>{{localize "RMU.weapon.attackTable"}}</th>
-        <th>{{localize "RMU.weapon.skill"}}</th>
-      </tr>
-      <tr>
-
-        <td>
-          <input name="data.fumble" type="text" value="{{systemData.fumble}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.rangePoint" type="text" value="{{systemData.rangePoint}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.rangeShort" type="text" value="{{systemData.rangeShort}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.rangeMedium" type="text" value="{{systemData.rangeMedium}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.rangeLong" type="text" value="{{systemData.rangeLong}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.rangeExtreme" type="text" value="{{systemData.rangeExtreme}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.rangeAbsurd" type="text" value="{{systemData.rangeAbsurd}}" data-type="number" />
-        </td>
-        <td>
-          <input name="data.sizeAjustament" type="text" value="{{systemData.sizeAjustament}}" data-type="number" />
-        </td>
-        <td>
-          <select name="data.attackTable">
-            {{#select systemData.attackTable}}
-            {{#each config.attacktables as |name type|}}
-            <option value="{{type}}">{{localize name}}</option>
-            {{/each}}
-            {{/select}}
-          </select>
-        </td>
-        <td>
-          <input name="data.skill" type="text" value="{{systemData.skill}}" data-type="number" />
-        </td>
-      </tr>
-    </table>
-    <textarea name="data.description">{{systemData.description}}</textarea>
-  </div>
+  {{ log item}}
+  {{ log data}}
+  <section class="sheet-body">
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.itemCommon.cost"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.cost"  value="{{systemData.cost}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.itemCommon.quantity"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.quantity"  value="{{systemData.quantity}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.itemCommon.weight"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.weight"  value="{{systemData.weight}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.itemCommon.minStrength"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.minStrength"  value="{{systemData.minStrength}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.itemCommon.prodTimes"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.prodTimes"  value="{{systemData.prodTimes}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.fumble"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.fumble"  value="{{systemData.fumble}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.rangePoint"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rangePoint"  value="{{systemData.rangePoint}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.rangeShort"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rangeShort"  value="{{systemData.rangeShort}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.rangeMedium"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rangeMedium"  value="{{systemData.rangeMedium}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.rangeLong"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rangeLong"  value="{{systemData.rangeLong}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.rangeExtreme"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rangeExtreme"  value="{{systemData.rangeExtreme}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.rangeAbsurd"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rangeAbsurd"  value="{{systemData.rangeAbsurd}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.sizeAjustament"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.sizeAjustament"  value="{{systemData.sizeAjustament}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.attackTable"}}</label>
+      <select name="system.attackTable">
+        {{#select systemData.attackTable}}
+        {{#each config.attacktables as |name type|}}
+        <option value="{{type}}">{{localize name}}</option>
+        {{/each}}
+        {{/select}}
+      </select> 
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.weapon.skill"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.skill"  value="{{systemData.skill}}"  data-dtype="Number"  />
+    </div>
+    <label class="label-text">{{localize "RMU.weapon.description"}}</label>
+    <textarea name="system.description">{{systemData.description}}</textarea>
+    <label class="label-text">{{localize "RMU.itemCommon.notes"}}</label>
+    <textarea name="system.notes">{{systemData.notes}}</textarea>
+  </section>
 </form>
