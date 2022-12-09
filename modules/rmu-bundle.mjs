@@ -1,4 +1,5 @@
 // Import Modules
+import { RMU } from "./config.js";
 import { RMUItemSheet } from "./sheets/RMUItemSheet.js";
 
 /* -------------------------------------------- */
@@ -17,6 +18,8 @@ Hooks.once("init", async function() {
     decimals: 0
   };
   
+  CONFIG.RMU = RMU;
+
   // Register sheet application classes
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("rmunified", RMUItemSheet, {
