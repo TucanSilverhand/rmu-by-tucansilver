@@ -42,26 +42,61 @@
       "warHammer": "War hammer",
       "whip": "Whip"
     },
-    "weapon": {
-      "description": "Description",
-      "fumble": "Fumble",
-      "rangePoint": "Range point",
-      "rangeShort": "Range short",
-      "rangeMedium": "Range medium",
-      "rangeLong": "Range long",
-      "rangeExtreme": "Range extreme",
-      "rangeAbsurd": "Range absurd",
-      "sizeAjustament": "Size ajustament",
-      "attackTable": "Attack table",
-      "skill": "Skill to use"      
-    },
     "itemCommon": {
       "cost": "Cost",
       "quantity": "Quantity",
       "weight": "Weight",
-      "minStrength": "Min Strength",
-      "prodTimes": "Prod Times",
+      "minStrength": "Min strength",
+      "prodTimes": "Prod times",
+      "description": "Description",
       "notes": "Notes"
+    },
+    "weapon": {
+      "type": "Weapon",
+      "fumble": "Fumble",
+      "rangePoint": "Point",
+      "rangeShort": "Short",
+      "rangeMedium": "Medium",
+      "rangeLong": "Long",
+      "rangeExtreme": "Extreme",
+      "rangeAbsurd": "Absurd",
+      "sizeAjustament": "Size ajustament",
+      "attackTable": "Attack table",
+      "skill": "Skill to use"      
+    },
+    "armor": {
+      "type": "Armor",
+      "at": "Armor Type",
+      "encumbrance": "Encumbrance",
+      "malusManeuver": "Maneuver",
+      "malusRanged": "Ranged",
+      "malusPerception": "Perception",
+      "skill": "Skill to use"
+    },
+    "shield": {
+      "type": "Shield",
+      "db": "Defense Bonus",
+      "maxAttacksBlocked": "Max attacks blocked"
+    },
+    "general": {
+      "type": "General equipament"
+    },
+    "skill": {
+      "type": "Skill",
+      "stats": "Stats",
+      "statsBonus": "Stats bonus",
+      "totalRanks": "Total ranks",
+      "rankBonus": "Rank bonus",
+      "profBonus": "Prof bonus",
+      "specBonus": "Spec bonus",
+      "totalBonus": "Total bonus",
+      "profBonusBool": "Professional skill",
+      "knackBonusBool": "Knack skill",
+      "skillCategory": "Skill category"
+    },
+    "global": {
+      "range": "Range",
+      "malus": "Penalties"
     }
   }
 }

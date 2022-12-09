@@ -288,6 +288,7 @@
             "weight": 0,
             "minStrength": 0,
             "prodTimes": 1,
+            "description": "",
             "notes": ""
         }
       },
@@ -305,12 +306,11 @@
         "skillCategory": ""
       },
       "general": {
-        "description": "",
         "templates": ["common"]
       },
       "armor": {
-        "description": "",
         "templates": ["common"],
+        "at": 1,
         "encumbrance": 0,
         "malusManeuver": 0,
         "malusRanged": 0,
@@ -318,13 +318,11 @@
         "skill": ""
       },
       "shield": {
-        "description": "",
         "templates": ["common"],
         "db": 0,
         "maxAttacksBlocked": 0
       },
       "weapon": {
-        "description": "",
         "templates": ["common"],
         "fumble": 1,
         "rangePoint": 0,

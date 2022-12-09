@@ -1,0 +1,55 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+      <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+      <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+  </header>
+  {{! log item}}
+  {{! log data}}
+  <section class="sheet-body">
+    <div class="form-group">
+      <label class="label-text"><b>{{localize "RMU.skill.type"}}</b></label>
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.stats"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.stats"  value="{{systemData.stats}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.statsBonus"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.statsBonus"  value="{{systemData.statsBonus}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.totalRanks"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.totalRanks"  value="{{systemData.totalRanks}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.rankBonus"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.rankBonus"  value="{{systemData.rankBonus}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.profBonus"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.profBonus"  value="{{systemData.profBonus}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.specBonus"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.specBonus"  value="{{systemData.specBonus}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.totalBonus"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.totalBonus"  value="{{systemData.totalBonus}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.profBonusBool"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.profBonusBool"  value="{{systemData.profBonusBool}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.knackBonusBool"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.knackBonusBool"  value="{{systemData.knackBonusBool}}"  data-dtype="Number"  />
+    </div>
+    <div class="form-group">
+      <label class="label-text">{{localize "RMU.skill.skillCategory"}}</label>
+      <input  class="attribute-value"  type="text"  name="system.skillCategory"  value="{{systemData.skillCategory}}"  data-dtype="Number"  />
+    </div>
+    <label class="label-text">{{localize "RMU.itemCommon.description"}}</label>
+    <textarea name="system.description">{{systemData.description}}</textarea>
+  </section>
+</form>
