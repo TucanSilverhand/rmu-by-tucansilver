@@ -11,7 +11,13 @@
     </div>
     <div class="form-group">
       <label class="label-text">{{localize "RMU.skill.stats"}}</label>
-      <input  class="attribute-value"  type="text"  name="system.stats"  value="{{systemData.stats}}"  data-dtype="Number"  />
+      <select name="system.stats">
+        {{#select systemData.stats}}
+        {{#each config.statslist as |name type|}}
+        <option value="{{type}}">{{localize name}}</option>
+        {{/each}}
+        {{/select}}
+      </select> 
     </div>
     <div class="form-group">
       <label class="label-text">{{localize "RMU.skill.statsBonus"}}</label>
@@ -47,7 +53,13 @@
     </div>
     <div class="form-group">
       <label class="label-text">{{localize "RMU.skill.skillCategory"}}</label>
-      <input  class="attribute-value"  type="text"  name="system.skillCategory"  value="{{systemData.skillCategory}}"  data-dtype="Number"  />
+      <select name="system.skillCategory">
+        {{#select systemData.skillCategory}}
+        {{#each config.skillcategorieslist as |name type|}}
+        <option value="{{type}}">{{localize name}}</option>
+        {{/each}}
+        {{/select}}
+      </select> 
     </div>
     <label class="label-text">{{localize "RMU.itemCommon.description"}}</label>
     <textarea name="system.description">{{systemData.description}}</textarea>

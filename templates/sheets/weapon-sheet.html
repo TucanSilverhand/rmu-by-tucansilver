@@ -65,7 +65,7 @@
       <label class="label-text">{{localize "RMU.weapon.attackTable"}}</label>
       <select name="system.attackTable">
         {{#select systemData.attackTable}}
-        {{#each config.attacktables as |name type|}}
+        {{#each config.attacktableslist as |name type|}}
         <option value="{{type}}">{{localize name}}</option>
         {{/each}}
         {{/select}}

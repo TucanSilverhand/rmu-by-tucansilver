@@ -1,7 +1,7 @@
 export const RMU = {};
 
 // http://www.zorro.20m.com/rolemaster/sw_races_languages_conversion.htm
-RMU.languages = {
+RMU.languageslist = {
 	"erlin": "Erlin",
 	"iylar": "Iylar",
 	"rhaya": "Rhaya",
@@ -17,8 +17,50 @@ RMU.languages = {
 	"xytos": "Xytos"
 }
 
-RMU.attacktables = {
-	"none": "",
+RMU.statslist = {
+	"none":	"",
+	"ag": 	"RMU.stats.ag",
+	"co": 	"RMU.stats.co",
+	"em": 	"RMU.stats.em",
+	"in": 	"RMU.stats.in",
+	"me": 	"RMU.stats.me",
+	"pr": 	"RMU.stats.pr",
+	"qu": 	"RMU.stats.qu",
+	"re": 	"RMU.stats.re",
+	"sd": 	"RMU.stats.sd",
+	"st": 	"RMU.stats.st"
+}
+
+RMU.skillcategorieslist = {
+	"none":							"",
+	"animal": 					"RMU.skillcategories.animal",
+	"awareness": 				"RMU.skillcategories.awareness",
+	"battleExpertise": 	"RMU.skillcategories.battleExpertise",
+	"bodyDiscipline": 	"RMU.skillcategories.bodyDiscipline",
+	"brawn": 						"RMU.skillcategories.brawn",
+	"combatExpertise": 	"RMU.skillcategories.combatExpertise",
+	"combatTraining": 	"RMU.skillcategories.combatTraining",
+	"composition": 			"RMU.skillcategories.composition",
+	"crafting": 				"RMU.skillcategories.crafting",
+	"delving": 					"RMU.skillcategories.delving",
+	"environmental": 		"RMU.skillcategories.environmental",
+	"gymnastic": 				"RMU.skillcategories.gymnastic",
+	"lore": 						"RMU.skillcategories.lore",
+	"languages": 				"RMU.skillcategories.languages",
+	"magicalExpertise": "RMU.skillcategories.magicalExpertise",
+	"medical": 					"RMU.skillcategories.medical",
+	"mentalDiscipline": "RMU.skillcategories.mentalDiscipline",
+	"movement": 				"RMU.skillcategories.movement",
+	"performanceArt": 	"RMU.skillcategories.performanceArt",
+	"science": 					"RMU.skillcategories.science",
+	"social": 					"RMU.skillcategories.social",
+	"subterfuge": 			"RMU.skillcategories.subterfuge",
+	"technical": 				"RMU.skillcategories.technical",
+	"vocation": 				"RMU.skillcategories.vocation"
+}
+
+RMU.attacktableslist = {
+	"none":						"",
 	"armingSword": 		"RMU.attacktables.armingSword",
 	"coldBall": 			"RMU.attacktables.coldBall",
 	"fireBall": 			"RMU.attacktables.fireBall",

@@ -6,6 +6,7 @@
 - Added shields.
 - Added general equipament.
 - Added skills (as item).
+- Added list for skill categories, stats, attack tables 
 
 ## 2022-12-08
 ### by TucanSilver
