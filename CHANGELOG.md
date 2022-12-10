@@ -1,3 +1,11 @@
+## 2022-12-10
+### by TucanSilver
+To investigate:
+- How I could insert a true/false radio for a field in template? (skills)
+- OK. Fixed with handlebars.
+Tasks:
+- Fixed true/false fields in skills.
+
 ## 2022-12-09
 ### by TucanSilver
 - Change description from item spec to general template.

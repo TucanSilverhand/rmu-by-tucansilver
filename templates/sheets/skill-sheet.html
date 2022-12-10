@@ -45,11 +45,11 @@
     </div>
     <div class="form-group">
       <label class="label-text">{{localize "RMU.skill.profBonusBool"}}</label>
-      <input  class="attribute-value"  type="text"  name="system.profBonusBool"  value="{{systemData.profBonusBool}}"  data-dtype="Number"  />
+      <input type="checkbox" name="system.profBonusBool" {{checked systemData.profBonusBool}} data-dtype="Boolean" />
     </div>
     <div class="form-group">
       <label class="label-text">{{localize "RMU.skill.knackBonusBool"}}</label>
-      <input  class="attribute-value"  type="text"  name="system.knackBonusBool"  value="{{systemData.knackBonusBool}}"  data-dtype="Number"  />
+      <input type="checkbox" name="system.knackBonusBool" {{checked systemData.knackBonusBool}} data-dtype="Boolean" />
     </div>
     <div class="form-group">
       <label class="label-text">{{localize "RMU.skill.skillCategory"}}</label>
@@ -63,5 +63,6 @@
     </div>
     <label class="label-text">{{localize "RMU.itemCommon.description"}}</label>
     <textarea name="system.description">{{systemData.description}}</textarea>
+    {{! editor content="system.description" target="systemData.description" button="true" owner="owner" editable="editable"}}
   </section>
 </form>

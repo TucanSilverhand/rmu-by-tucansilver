@@ -136,7 +136,9 @@
     },
     "global": {
       "range": "Range",
-      "malus": "Penalties"
+      "malus": "Penalties",
+      "true": "True",
+      "false": "False"
     }
   }
 }
