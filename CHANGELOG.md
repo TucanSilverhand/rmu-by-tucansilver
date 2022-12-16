@@ -1,3 +1,12 @@
+## 2022-12-16
+### by TucanSilver
+- Added 2 items in skills.db to test.
+- Changed templates from html to hbs, now we can show in VC with highlights (handlebars). 
+- Added extra folder. By now the character sheel to understand agroupation.
+Comments:
+- [ES] Contando con casillas de 100px para generar una matriz parametrizada, solo puedo meter 8 casillas para que se pueda ver con resoluciones bajas.
+- Al final uso flexcol para generar bloques que sean fluidos.
+
 ## 2022-12-10
 ### by TucanSilver
 To investigate:

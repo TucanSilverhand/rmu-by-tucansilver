@@ -1,0 +1,71 @@
+/* div.flexrow {
+  flex-wrap: nowrap;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+@media all and (min-width: 800px) {
+  .rmu-flexorder-1 { order: 1; } 
+  .rmu-flexorder-2 { order: 2; }
+  .rmu-flexorder-3 { order: 3; }
+  .rmu-flexorder-4 { order: 4; }
+  .rmu-flexorder-5 { order: 5; }
+  .rmu-flexorder-6 { order: 6; }
+  .rmu-flexorder-7 { order: 7; }
+} */
+
+/* DivTable.com */
+
+div.sheet-body {
+  border: 1px solid #999999;
+}
+div.rmu-table {
+	display: table;
+	/* width: 700px; */
+  border: 1px solid #000;
+  display: table-row-group;
+}
+div.rmu-table-row {
+	display: table-row;
+}
+div.rmu-table-caption {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 480px;
+  min-width: 480px;
+}
+div.rmu-table-head, div.rmu-table-headx2 {
+	background-color: white;
+	display: table-header-group;
+  font-weight: bold;
+  text-align: center;
+}
+div.rmu-table-cell, div.rmu-table-head {
+	border: 1px solid #999999;
+  background-color: white;
+	display: table-cell;
+	/* padding: 3px 10px; */
+  width: 60px;
+  min-width: 60px;
+}
+div.rmu-table-cellx2, div.rmu-table-headx2 {
+	border: 1px solid #999999;
+  background-color: white;
+	display: table-cell;
+	/* padding: 3px 10px; */
+  width: 120px;
+  min-width: 120px;
+}
+div.rmu-table-heading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+div.rmu-table-foot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}

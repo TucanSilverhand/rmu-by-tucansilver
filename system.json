@@ -20,6 +20,20 @@
   "esmodules": [
     "modules/rmu-bundle.mjs"
   ],
+  "styles":[
+    "styles/rmu-generic.css",
+    "styles/rmu-actors.css"
+  ],
+  "packs": [
+    {
+      "name": "skills",
+      "label": "Skills",
+      "system": "rmu-by-tucansilver",
+      "path": "./packs/skills.db",
+      "entity": "Item",
+      "tag": "skill"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
