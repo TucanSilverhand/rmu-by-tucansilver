@@ -17,9 +17,9 @@
 
 /* DivTable.com */
 
-div.sheet-body {
+/* div.sheet-body {
   border: 1px solid #999999;
-}
+} */
 div.rmu-table {
 	display: table;
 	/* width: 700px; */
@@ -34,10 +34,16 @@ div.rmu-table-caption {
   color: white;
   font-weight: bold;
   text-align: center;
-  width: 480px;
-  min-width: 480px;
 }
-div.rmu-table-head, div.rmu-table-headx2 {
+div.rmu-table-captionwhite {
+  background-color: white;
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid #999999;
+  padding-left: 5px;
+
+} 
+div.rmu-table-head {
 	background-color: white;
 	display: table-header-group;
   font-weight: bold;
@@ -47,17 +53,28 @@ div.rmu-table-cell, div.rmu-table-head {
 	border: 1px solid #999999;
   background-color: white;
 	display: table-cell;
-	/* padding: 3px 10px; */
+  text-align: center;
+}
+div.cellx1 {
   width: 60px;
   min-width: 60px;
+  height: 19px;
+  min-height: 19px;
+  max-height: 19px;
 }
-div.rmu-table-cellx2, div.rmu-table-headx2 {
-	border: 1px solid #999999;
-  background-color: white;
-	display: table-cell;
-	/* padding: 3px 10px; */
+div.cellx2 {
   width: 120px;
   min-width: 120px;
+  height: 19px;
+  min-height: 19px;
+  max-height: 19px;
+}
+div.cellx3 {
+  width: 180px;
+  min-width: 180px;
+  height: 19px;
+  min-height: 19px;
+  max-height: 19px;
 }
 div.rmu-table-heading {
 	background-color: #EEE;
@@ -68,4 +85,13 @@ div.rmu-table-foot {
 	background-color: #EEE;
 	display: table-footer-group;
 	font-weight: bold;
+}
+
+div.flexrowcenter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;    
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }

@@ -1,3 +1,7 @@
+## 2022-12-17
+### by TucanSilver
+- Working on character sheet.
+
 ## 2022-12-16
 ### by TucanSilver
 - Added 2 items in skills.db to test.
