@@ -3,7 +3,7 @@ export class RMUNamedCharacterSheet extends ActorSheet {
     return mergeObject(super.defaultOptions, {
       template: "systems/rmu-by-tucansilver/templates/sheets/namedCharacter-sheet.hbs",
       clases: [ "rmu", "sheet", "namedCharacter" ],
-      width: 796,
+      width: 802,
       height: 720,
     });
   }
